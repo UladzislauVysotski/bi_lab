@@ -1,14 +1,15 @@
 """
 Write a program that check whether a string is palindrome or Not.
 """
-my_str = 'bIbohPhoBib'
+from typing import Any, Iterator
+
+my_str: str = 'bIbohPhoBib'
 
 my_str = my_str.casefold()
 
-rev_str = reversed(my_str)
+rev_str: Iterator[Any] = reversed(my_str)
 
-if list(my_str) == list(rev_str):
-   print("It is palindrome")
+if not list(my_str) != list(rev_str):
+    print("It is palindrome")
 else:
-   print("It is not palindrome")
-
+    print('It is not palindrome')
