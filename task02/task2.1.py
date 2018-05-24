@@ -1,7 +1,6 @@
 """
 Write a program that check whether a string is palindrome or Not.
 """
-from typing import Any, Iterator
 
 my_str = 'bIbohPhoBiB'
 
