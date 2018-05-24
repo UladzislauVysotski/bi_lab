@@ -14,7 +14,3 @@ quantity = int(input("Enter the quantity in $ "))
 total = amount * quantity
 
 print("Total is ", total, "$")
-
-
-
-
