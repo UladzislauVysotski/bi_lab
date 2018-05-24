@@ -7,6 +7,6 @@ amount: float = float(input("Enter the amount in $ "))
 
 quantity = int(input("Enter the quantity in $ "))
 
-remainingamount = float(amount * quantity)
+total = amount * quantity
 
-print("Total is ", remainingamount, "$")
+print("Total is ", total, "$")

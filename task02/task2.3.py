@@ -5,7 +5,6 @@ for multiples of five print “Buzz”.
 For numbers which are multiples of both three and five, print “FizzBuzz”.
 """
 
-fizzbuzz: int
 for fizzbuzz in range(101):
     if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
         print("fizzbuzz")
