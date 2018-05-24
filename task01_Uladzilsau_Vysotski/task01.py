@@ -4,9 +4,6 @@ def greet(name):
 
 greet('Vlad')
 
-
 greet('Liza')
 
-
 greet('Andrei')
-
