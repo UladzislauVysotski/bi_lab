@@ -3,11 +3,11 @@ Write a program that check whether a string is palindrome or Not.
 """
 from typing import Any, Iterator
 
-my_str = 'bIbohPhoBib'
+my_str = 'bIbohPhoBiB'
 
 my_str = my_str.casefold()
 
-rev_str: Iterator[Any] = reversed(my_str)
+rev_str = reversed(my_str)
 
 if list(my_str) == list(rev_str):
     print("It is palindrome")
