@@ -6,7 +6,7 @@ def generate_numbers(n=20):
 
 
 def count_characters(count_me_string="ababplplp"):
-    count_me_list = list(count_me_string)
+    count_me_list = count_me_string
     dict1 = {}
     for i in count_me_list:
         if i not in dict1.keys():
