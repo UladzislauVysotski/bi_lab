@@ -3,7 +3,7 @@ import sys
 
 
 def runner(*args):
-    if len(args) == 0:
+    if not args:
         print(pytasks.generate_numbers())
         print(pytasks.count_characters())
         print(pytasks.fizzbuzz())

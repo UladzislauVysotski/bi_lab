@@ -31,11 +31,7 @@ def fizzbuzz(count=100):
 
 
 def is_palindrome(input_str="madam"):
-    if input_str == input_str[::-1]:
-        checker = True
-    else:
-        checker = False
-    return checker
+    return input_str == input_str[::-1]
 
 
 def happy_numbers(n=100):

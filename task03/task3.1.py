@@ -1,6 +1,6 @@
-list1 = ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
+list1 = [a + b for a in 'ab' for b in 'bcd']
 list2 = list1[::2]
-list3 = ['1a', '2a', '3a', '4a']
+list3 = [str(i + 1) + "a" for i in range(3)]
 list3.remove('2a')
 print(list3)
 list3_copy = list3 + ['2a']
