@@ -43,11 +43,11 @@ def happy_numbers(n=100):
         while not end_cycle:
             num = sum(int(j) ** 2 for j in str(num))
             if num in past:
-                end_cycle = True
+                break
             past.add(num)
             if num == 1:
                 result.append(i)
-                end_cycle = True
+                break
         past.clear()
         end_cycle = False
     return result

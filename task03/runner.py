@@ -27,4 +27,4 @@ def runner(*args):
 if __name__ == "__main__":
     arguments = sys.argv[1:]
     for i in arguments:
-        runner(i)
+        runner(*arguments)
