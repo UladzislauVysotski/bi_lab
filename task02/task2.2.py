@@ -3,9 +3,9 @@ Write a program to calculate total cost.
 One item costs M dollars and N cents. Customer bought L items.
 Print total price in dollars and cents for L items.
 """
-amdol = (input("Enter the amount in $ "))
+amdol = input("Enter the amount in $ ")
 
-amcent = (input("Enter the amount in cents "))
+amcent = input("Enter the amount in cents ")
 
 amount = float(amdol + "." + amcent)
 
