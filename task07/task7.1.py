@@ -1,12 +1,12 @@
 import re
 
 # Write a program to find all email addresses in a string.
-line_in_1 = 'hfhhde Uladzislau_Vysotski@epam.com asdfv SD fdad _sdf uladzislau_vysotski@gmail.com'
+line_in_1 = 'he Uladzislau_Vysotski@epam.com asdfv SD fd uladzislau_vysotski@gmail.com'
 for i in re.findall(r'[\w\.-]+@[\w\.-]+', line_in_1):
     print(i)
 print()
 
-# Write a program to find all three, four, five characters long words in a string.
+# Write a program to find all three, four, five characters long words string.
 line_in_2 = 'I am in love with the craps'
 print(re.findall(r'\b\w{3,5}\b', line_in_2))
 print()
