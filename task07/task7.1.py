@@ -1,6 +1,6 @@
 import re
 
-# Write a program to find all email addresses in string.
+# Write a program to find all email addresses in a string.
 line_in_1 = 'hfhhde Uladzislau_Vysotski@epam.com asdfv SD fdad _sdf uladzislau_vysotski@gmail.com'
 for i in re.findall(r'[\w\.-]+@[\w\.-]+', line_in_1):
     print(i)
